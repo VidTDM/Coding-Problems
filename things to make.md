@@ -1,5 +1,3 @@
-1. Write a program that prints the next 20 leap years.
-1. Write a function that returns the elements on odd positions in a list.
 1. Write a function that combines two lists by alternatingly taking elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 1. Implement binary search: Given a sorted array, and a number, find if the number exists in the array or not. 
 1. Implement a stack (pop, push) using an array.
