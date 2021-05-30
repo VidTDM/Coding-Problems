@@ -1,4 +1,3 @@
-1. Write a function that combines two lists by alternatingly taking elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 1. Implement binary search: Given a sorted array, and a number, find if the number exists in the array or not. 
 1. Implement a stack (pop, push) using an array.
 1. Scramble a message using the Roman method 
