@@ -178,3 +178,35 @@ Minimum:
 |:----------------------------:|:------:|
 |    [12, 123, 1, 3123, 123]   |    1   |
 | [-12, -123, -1, -3123, -123] |  -3123 |
+
+# Binary Search
+
+Given a **sorted** array, and a number, return the index of the number if it doesn't exist return `-1`.
+
+<details>
+<summary>What is binary search?</summary>
+Binary Search: Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+Example :
+
+![Basic Idea Of What Is Binary Search](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
+
+The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n).
+
+Source: [geeksforgeeks.org](https://geeksforgeeks.org)
+</details>
+
+|          Input           | Output |
+| :----------------------: | :----: |
+|     [5, 3, 8 ,10], 8     |   3    |
+|        [8, 12], 8        |   1    |
+| [1, 2, 3, 8, 12, 15], 15 |   6    |
+
+# Roman secret Messages
+
+Roman soldiers used to use a simple code that allowed them to send secret messages over distances.
+
+If the Roman alphabet has 26 letters, ordered as an alphabet `ABCDEFGHIJKLMNOPQSTUVWXYZ`, then an arbitrary word can be translated by rotating every letter by 13=26/2 places. Thus, `A` becomes `N`, `B` becomes `O` etc. Finally, the letter `Z` is translated to `M`.
+
+Which returns the translated word, where word is an arbitrary string written with the 26-letter alphabet. For instance `scramble('NICK')` is `AVPX`. Note that, Scrambling again yeilds original work. E.g. `scramble('AVPX')` yields `NICK`.
+
+**Note:-** If you have a phrase, only the letters are subject to rotation, while the spaces remain fixed.
